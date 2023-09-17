@@ -1,9 +1,12 @@
 const http = require('http');
+const fs = require('fs');
+
+let content = fs.readfilesync('text.txt', 'utf-8');
 
 //create a server
 
 let server = http.createServer((req, res)=>{
-    res.end("Node js app deploying...");
+    res.end(content + "Node js app deploying...");
 });
 
 server.listen(3000, ()=>{
