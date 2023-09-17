@@ -1,7 +1,7 @@
 const http = require('http');
 const fs = require('fs');
 
-let content = fs.readfilesync('text.txt', 'utf-8');
+let content = fs.readFileSync('text.txt', 'utf-8');
 
 //create a server
 
