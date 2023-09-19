@@ -1,7 +1,7 @@
 const http = require('http');
 const fs = require('fs');
 
-const Api = [
+let Api = [
     {
         "name": "dheeraj",
         "age": 19,
@@ -22,7 +22,7 @@ const Api = [
         "age": 18.2,
         "vill": "bhalni"
     }
-]
+];
 
 Api = JSON.stringify(Api);
 
