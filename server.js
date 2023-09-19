@@ -23,6 +23,9 @@ const Api = [
         "vill": "bhalni"
     }
 ]
+
+Api = JSON.stringify(Api);
+
 let content = fs.readFileSync('text.txt', 'utf-8');
 
 //create a server
