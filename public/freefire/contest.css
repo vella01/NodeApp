@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contest-container{
+    padding: 30px;
+}
+.username{
+    margin-bottom: 20px;
+    font-size: 140%;
+    font-weight: 700;
+    color: #575757;
+    font-family: cursive;
+}
+h1{
+    font-size: 140%;
+    font-weight: 700;
+    font-family: cursive;
+}

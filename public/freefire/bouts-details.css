@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bouts-detail{
+    padding: 15px;
+}
+.fa-arrow-left{
+    color: red;
+    font-size: 150%;
+    cursor: pointer;
+}
+.bouts-img{
+    height: 200px;
+    margin-bottom: 20px;
+    background: #52bbbe;
+}
+.details{
+    padding: 10px;
+    font-size: 130%;
+    font-family: cursive;
+    color: rgb(173, 170, 170);
+    background-color: #20365e;
+}
+a{
+    text-decoration: none;
+}
+.joinBtn{
+    height: 50px;
+    display: flex;
+    margin: 20px 0;
+    color: white;
+    font-size: 150%;
+    cursor: pointer;
+    border-radius: 50px;
+    align-items: center;
+    font-family: cursive;
+    justify-content: center;
+    background-color: #960596;
+}

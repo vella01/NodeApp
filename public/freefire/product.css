@@ -1,0 +1,27 @@
+
+.Products{
+    padding: 15px;
+    padding-bottom: 30px;
+}
+#_1{
+    color: #282b31;
+    text-decoration: none;
+}
+.Products{
+    margin-bottom: 30px;
+    font-family: cursive;
+    padding: 15px;
+}
+.product{
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-family: cursive;
+    box-sizing: border-box;
+    background-color: rgb(255, 179, 179);
+}
+.product .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
